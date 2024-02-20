@@ -1,0 +1,19 @@
+.App {
+  border: 5px solid #333333;
+  height: 600px;
+  margin: 30px;
+  padding: 20px;
+}
+
+#square{
+  display: flex;
+}
+
+/* button{
+  margin: 100px;
+  margin-top: 50px;
+  width: 20%;
+}
+ */
+
+
