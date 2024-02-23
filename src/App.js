@@ -18,6 +18,15 @@ function tinhTong(){
   setKq(total)
 }
 
+function tinhTru(){
+  if(!a || !b){
+    alert("Vui lòng nhập a và b")
+    return null;
+  }
+  let total = parseInt(a) - parseInt(b)
+  setKq(total)
+}
+
 function xoa(){
   setA("")
   setB("")
@@ -64,7 +73,8 @@ function xoa(){
 
         </div>
         <div className="d-grid gap-2">
-          <Button variant="primary" onClick={tinhTong}>Tính</Button>
+          <Button variant="primary" onClick={tinhTong}>+</Button>
+          <Button variant="primary" onClick={tinhTru}>-</Button>
         </div>
           <Button variant="danger" onClick={xoa}>Xóa</Button>
       </div>

@@ -8,7 +8,9 @@
 #square{
   display: flex;
 }
-
+.left{
+  margin-bottom: -16px;
+}
 /* button{
   margin: 100px;
   margin-top: 50px;
